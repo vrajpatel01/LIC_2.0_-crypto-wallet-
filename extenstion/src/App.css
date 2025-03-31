@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.App {
+  text-align: center;
+    width: 400px;
+    min-height: 600px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.items-center .ant-select-outlined div:has(.ant-select-selection-search){
+  background: transparent;
+  border: none !important;
+  outline: none !important;
+  color: white !important;
+}
+
+[cz-shortcut-listen="true"] .items-center .ant-select-outlined .ant-select-selection-item{
+  color: white !important;
+}
+
+.ant-tabs-tab{
+  color: white !important;
+}
